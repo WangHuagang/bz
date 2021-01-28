@@ -1,0 +1,12 @@
+lib
+dist
+es
+node_modules
+packages/muya-theme-light/src/icons/*.tsx
+build
+package.json
+typings
+.eslintrc.js
+docz-templates
+## manual组件添加
+docz-templates

@@ -1,0 +1,21 @@
+stages:
+  - test
+  - publish
+
+cache:
+  paths:
+    - node_modules
+
+publish:
+  stage: publish
+  image: registry.qunhequnhe.com/fe/node-yarn-zip-bash-git:10.19.0
+  only:
+    - master
+  before_script:
+    - npm install @qunhe/def-cli -g
+    - yarn
+  script:
+    - kjl p npm publish -n true
+    - kjl deploy
+  tags:
+    - kube-runner

@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "jsx": "react",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/**/lib",
+        "**/**/es"
+    ]
+}
