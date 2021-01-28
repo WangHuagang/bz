@@ -114,7 +114,7 @@ api/*.json
 **/src/build-export.ts
 
 ### Docz ###
-.docz
+
 
 ### Build Result ###
 lib
@@ -126,9 +126,9 @@ tsconfig.build.tsbuildinfo
 .cache-loader
 
 ## manual组件添加
-.docz/**
+
 api
 builtview
 bundleMap.json
 ## manual组件添加
-.docz/**
+

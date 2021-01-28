@@ -1,0 +1,145 @@
+{
+  "config": {
+    "title": "小程序-docs",
+    "description": "Kujiale Business Components",
+    "menu": [
+      {
+        "name": "入门",
+        "menu": [
+          "test",
+          "whg"
+        ]
+      },
+      "Hello"
+    ],
+    "version": "0.0.5",
+    "repository": "https://gitlab.qunhequnhe.com/muya-ui/muya-bu",
+    "native": false,
+    "codeSandbox": false,
+    "themeConfig": {
+      "colors": {
+        "blackLight": "#232529",
+        "whiteLight": "#CCC"
+      },
+      "logo": {
+        "light": "//qhstaticssl.kujiale.com/newt/23/image/png/1571225467035/708C2EE1345EFE5E03850336A48B5591.png",
+        "dark": "//qhstaticssl.kujiale.com/newt/23/image/png/1571225615286/E9608DA43C6389692DAAE8CD9B80BD2F.png",
+        "width": 180
+      }
+    },
+    "separator": "-",
+    "typescript": true,
+    "public": "/public",
+    "theme": "@qunhe/baozheng-docz-theme",
+    "propsParser": false,
+    "mdPlugins": [
+      null
+    ],
+    "hastPlugins": [
+      null
+    ],
+    "noMenu": [
+      "test"
+    ]
+  },
+  "entries": [
+    {
+      "key": "hello.mdx",
+      "value": {
+        "name": "Hello",
+        "route": "/",
+        "id": "db1457a328db2f022714c9c774fd0a48",
+        "filepath": "hello.mdx",
+        "link": "",
+        "slug": "hello",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hello",
+            "depth": 1,
+            "value": "Hello"
+          }
+        ]
+      }
+    },
+    {
+      "key": "md/test.mdx",
+      "value": {
+        "name": "test",
+        "route": "/test",
+        "menu": "入门",
+        "disableDoubleRow": false,
+        "id": "877b9ef0e42b912926484b62fd4743e4",
+        "filepath": "md/test.mdx",
+        "link": "",
+        "slug": "md-test",
+        "headings": [
+          {
+            "slug": "test",
+            "depth": 1,
+            "value": "Test"
+          },
+          {
+            "slug": "标题2",
+            "depth": 1,
+            "value": "标题2"
+          },
+          {
+            "slug": "标题3",
+            "depth": 2,
+            "value": "标题3"
+          },
+          {
+            "slug": "211",
+            "depth": 2,
+            "value": "211"
+          },
+          {
+            "slug": "标题的",
+            "depth": 2,
+            "value": "标题的"
+          },
+          {
+            "slug": "大的",
+            "depth": 2,
+            "value": "大的"
+          },
+          {
+            "slug": "法法",
+            "depth": 2,
+            "value": "法法"
+          },
+          {
+            "slug": "56条3",
+            "depth": 2,
+            "value": "56条3"
+          },
+          {
+            "slug": "标题4",
+            "depth": 3,
+            "value": "标题4"
+          }
+        ]
+      }
+    },
+    {
+      "key": "md/whg.mdx",
+      "value": {
+        "name": "whg",
+        "route": "/whg",
+        "menu": "入门",
+        "id": "8e9951c63507da4f87244aa545286407",
+        "filepath": "md/whg.mdx",
+        "link": "",
+        "slug": "md-whg",
+        "headings": [
+          {
+            "slug": "teswhg",
+            "depth": 1,
+            "value": "Teswhg"
+          }
+        ]
+      }
+    }
+  ]
+}
