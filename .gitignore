@@ -119,7 +119,6 @@ api/*.json
 ### Build Result ###
 lib
 es
-dist
 build
 types
 tsconfig.build.tsbuildinfo

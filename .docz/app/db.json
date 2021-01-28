@@ -47,7 +47,7 @@
       "key": "hello.mdx",
       "value": {
         "name": "Hello",
-        "route": "/",
+        "route": "/miniapp-docs/0.0.5/",
         "id": "db1457a328db2f022714c9c774fd0a48",
         "filepath": "hello.mdx",
         "link": "",
@@ -66,7 +66,7 @@
       "key": "md/test.mdx",
       "value": {
         "name": "test",
-        "route": "/test",
+        "route": "/miniapp-docs/0.0.5/test",
         "menu": "入门",
         "disableDoubleRow": false,
         "id": "877b9ef0e42b912926484b62fd4743e4",
@@ -126,7 +126,7 @@
       "key": "md/whg.mdx",
       "value": {
         "name": "whg",
-        "route": "/whg",
+        "route": "/miniapp-docs/0.0.5/whg",
         "menu": "入门",
         "id": "8e9951c63507da4f87244aa545286407",
         "filepath": "md/whg.mdx",
